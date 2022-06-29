@@ -1,0 +1,9 @@
+clc;
+clear;
+load('Salinas\SalinasA_gt.mat')
+label=salinasA_gt;
+label(label==10)=2;
+label(label==11)=3;
+label(label==12)=4;
+label(label==13)=5;
+label(label==14)=6;
